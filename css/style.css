@@ -263,7 +263,7 @@ footer {
     background: url(../Images/img-fondo.jpg);
     background-position: center;
     background-size: cover;
-    height: 50vh;
+    height: 10vh;
   }
 
   .mouse-btn {
@@ -271,7 +271,7 @@ footer {
   }
 
   nav {
-    padding-top: 0%;
+    padding: 0%;
     flex-direction: column;
     align-items: center;
     }
@@ -289,7 +289,7 @@ footer {
   }
 
   .flex-container {
-    background: url(../Images/img-fondo5.png) center;
+    background: url(../Images/img-fondo7.jpg) cover;
     width: 100%;
     height: 50%;
     margin-top: 2%;
@@ -302,7 +302,7 @@ footer {
   }
 
   footer {
-    background: url(../Images/img-fondo2.jpg);
+    background: url(../Images/img-fondo2.jpg) cover;
     background-position: center;
     background-size: cover;
     height: 50vh;
@@ -329,9 +329,9 @@ footer {
     }
 
     .flex-container {
-      background: url(../Images/img-fondo6.jpg) center;
+      background: url(../Images/img-fondo5.png);
+      background-position: center;
       width: 100%;
-      height: 90%;
       margin-top: 2%;
       margin-bottom: 3vh;
     }
@@ -347,3 +347,5 @@ footer {
       color: white;
     }
   }
+
+
