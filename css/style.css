@@ -258,7 +258,7 @@ footer {
 
 
 
-@media screen  and (max-width:600px) {
+@media screen  and (max-width:750px) {
   header {
     background: url(../Images/img-fondo.jpg);
     background-position: center;
@@ -289,7 +289,7 @@ footer {
   }
 
   .flex-container {
-    background: url(../Images/img-fondo7.jpg) cover;
+    background: url(../Images/img-fondo5.png) cover;
     width: 100%;
     height: 50%;
     margin-top: 2%;
