@@ -1,428 +1,538 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is a page of the most listened songs on Spotify">
-    <meta name="keywords" content="Spotify, songs, music">
-    <meta name="autor" content="Nuñez Lourdes">
-    
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@600&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is a page of the most listened songs on Spotify">
+  <meta name="keywords" content="Spotify, songs, music">
+  <meta name="autor" content="Nuñez Lourdes">
 
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script>
+    alert("Hi! welcome to my page about songs")
+</script>
 </head>
+
 <body>
-    <!-- Here begins the header section -->
-    <header>
-        <div class="logo">
-            <img src="./Images/Logo-TP.png" alt="logo">
-        </div>
-        <div class="title">
-            <h1>Top Spotify Songs</h1>
-        </div>
-        <div class="elements">
-        <a href="https://open.spotify.com/user/uwsdrf5q79xqg1od095t9x34t?si=536b8147e2ef4c76" target="_blank">
-        <img src="./Images/spotify (1).png" alt="Spotify">
-        </a>
-               
-        <a href="https://youtube.com/@lununez5650" target="_blank">
-                    <img src="./Images/youtube.png" alt="Youtube">
-        </a>
-            
-        <a href="https://on.soundcloud.com/FP2zP" target="_blank">
+
+
+  <!-- button onclick -->
+  <button onclick="darkmode()">Dark mode</button>
+  <button onclick="originalmode()">Original mode</button>
+
+
+  <!-- Here begins the header section -->
+  <header>
+    <div class="img">
+      <img src="./Images/boy.png" alt="">
+    </div>
+    <div class="logo">
+      <img src="./Images/Logo-TP.png" alt="logo">
+    </div>
+    <div class="title">
+      <h1 id="header-title">Top Spotify Songs</h1>
+    </div>
+    <div class="elements">
+      <a href="https://open.spotify.com/user/uwsdrf5q79xqg1od095t9x34t?si=536b8147e2ef4c76" target="_blank">
+        <img src="./Images/spotify.png" alt="Spotify">
+      </a>
+
+      <a href="https://youtube.com/@lununez5650" target="_blank">
+        <img src="./Images/youtube.png" alt="Youtube">
+      </a>
+
+      <a href="https://on.soundcloud.com/FP2zP" target="_blank">
         <img src="./Images/soundcloud.png" alt="SoundCloud">
-        </a>
-       </div>
-    </header>
-
-        <!-- Mouse-->
-    <div class="container_mouse">
-        <span class="mouse-btn">
-            <span class="mouse-scroll"></span>
-        </span>
+      </a>
     </div>
-
-    <!-- Nav section-->
-    <section class="nav-section">
-        <nav>
-            <a href="https://youtube.com/playlist?list=PLAMKSu6B9x3LnCllbyJHRcKhhtIFOaZyo" target="_blank">Best Songs Ever</a>
-            <a href="https://open.spotify.com/playlist/76w5ANhYsXCcX33sBy2sAx?si=27c4f60bc6204cc0" target="_blank">Most Popular Songs</a>
-            <a href="https://youtu.be/atShuTmQLs0" target="_blank">Songs in Spanish Most Listens in History</a>
-            <a href="https://youtube.com/playlist?list=PLP_5XFP4hQbhIkoNtqzHz0BWomDdBQy2i">Most Viewed Songs On Youtube</a>
-        </nav>
-    </section>
-
-
-    <!--whatsapp float-->
-    <div class="whatsapp-float">
-    <a href="https://wa.me/+5492213645370" target="_blank">
-        <img src="./Images/whatsapp.png" alt="whatsapp">
-    </a>
-  </div>
-
-    <!--container section-->
-  <aside class="section">
-    <div class="flex-container">
-    <div class="container">
-    <h3>Blinding Lights</h3>
-    <img src="./Images/img 1.jpeg" alt="img blinding lights" class="img-1">
-    <br>
-    <audio src="./Music/The Weeknd.m4a" controls></audio>
-    <ul>
-        <li>Artist: The Weeknd</li>
-        <li>Album: After Hours</li>
-        <li>Duration: 3:20</li>
-    </ul>
-    <a href="https://youtu.be/4NRXx6U8ABQ" target="_blank">Watch Video</a>  
-    <a href="https://open.spotify.com/track/0VjIjW4GlUZAMYd2vXMi3b?si=f0847180f26a4754" target="_blank">Listen Now</a>
-</div>
-
-   
-
-<div class="container">
-    <h3>Shape of You</h3>
-    <img src="./Images/img 2.png" alt="img sahpe of you" class="img-2">
-    <br>
-    <audio src="./Music/Ed sheeran 1.mp3" controls></audio>
-    <ul>
-        <li>Artist: Ed Sheeran</li>
-        <li>Album: ÷</li>
-        <li>Duration: 3:53</li>
-    </ul>
-    <a href="https://youtu.be/JGwWNGJdvx8" target="_blank">Watch Video</a>
-    <a href="https://open.spotify.com/track/7qiZfU4dY1lWllzX7mPBI3?si=6c3de36143684811" target="_blank">Listen Now</a>
-    </div>
-
-  
-
-    <div class="container">
-    <h3>Dance Monkey</h3>
-    <img src="./Images/img 3.png" alt="img dance monkey" class="img-3">
-    <br>
-    <audio src="./Music/Dance Monkey.mp3" controls></audio>
-    <ul>
-        <li>Artist: Tones and I</li>
-        <li>Album: The Kids Are Coming y Welcome to the Madhouse</li>
-        <li>Duration: 3:29</li>
-    </ul>
-    <a href="https://youtu.be/q0hyYWKXF0Q" target="_blank">Watch Video</a>
-    <a href="https://open.spotify.com/track/2XU0oxnq2qxCpomAAuJY8K?si=7536e9f6c91d42ae" target="_blank">Liste Now</a>
-    </div>
-
-
-    
-    <div class="container">
-    <h3>Someone You Loved</h3>
-    <img src="./Images/img 4.png" alt="img someone you loved" class="img-4">
-    <br>
-    <audio src="./Music/Someone You Loved.mp3" controls></audio>
-    <ul>
-        <li>Artist: Lewis Capildi</li>
-        <li>Album: Breach y Divinely Uninspired to a Hellish Extent</li>
-        <li>Duration: 3:02</li>
-    </ul>
-    <a href="https://youtu.be/zABLecsR5UE" target="_blank">Watch Video</a>
-    <a href="https://open.spotify.com/track/7qEHsqek33rTcFNT9PFqLf?si=33713e506e1842b2" target="_blank">Listen Now</a>
-    </div>
-    
-
-    <div class="container">
-    <h3>Rockstar</h3>
-    <img src="./Images/img 5.png" alt="img rockstar" class="img-5">
-    <br>
-    <audio src="./Music/Post Malone 1.m4a" controls></audio>
-    <ul>
-        <li>Artist: Post Malone, 21 Savage</li>
-        <li>Album: Beerbongs & Bentleys</li>
-        <li>Duration: 3:38</li>
-    </ul>
-    <a href="https://youtu.be/UceaB4D0jpo" target="_blank">Watch Video</a>
-    <a href="https://open.spotify.com/track/0e7ipj03S05BNilyu5bRzt?si=43ba4ebb66ba49dd" target="_blank">Listen Now</a>
-    </div>
-
-
-
-    <div class="container">
-    <h3>Sunflower</h3>
-    <img src="./Images/img 6.png" alt="img sunflowers" class="img-6">
-    <br>
-    <audio src="./Music/Post Malone 2.m4a" controls></audio>
-    <ul>
-        <li>Artist: Post Malone, Swae Lee</li>
-        <li>Album: Spider-Man: Into the Spider-Verse</li>
-        <li>Duration: 2:38</li>
-    </ul>
-    <a href="https://youtu.be/ApXoWvfEYVU" target="_blank">Watch Video</a>
-    <a href="https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P?si=d46df91e4e044522" target="_blank">Listen Now</a>
-    </div>
-
-
-
-    <div class="container">
-    <h3>One Dance</h3>
-    <img src="./Images/img 7.png" alt="img one dance" class="img-7">
-    <br>
-    <audio src="./Music/Drake.mp3" controls></audio>
-    <ul>
-        <li>Artist: Drake, Wizkid, Kyla</li>
-        <li>Album: Views</li>
-        <li>Duration: 2:53</li>
-    </ul>
-    <a href="https://youtu.be/ki0Ocze98U8" target="_blank">Watch Now</a>
-    <a href="https://open.spotify.com/track/1zi7xx7UVEFkmKfv06H8x0?si=44230bab22fe49c6" target="_blank">Listen Now</a>
-    </div>
-
-
-
-    <div class="container">
-    <h3>Stay</h3>
-    <img src="./Images/img 8.png" alt="img stay" class="img-8">
-    <br>
-    <audio src="./Music/Justin.m4a" controls></audio>
-    <ul>
-        <li>Artist: The Kid Laroi, Justin Bieber</li>
-        <li>Album: F*ck Love 3: Over You</li>
-        <li>Duration: 2:21</li>
-    </ul>
-    <a href="https://youtu.be/kTJczUoc26U" target="_blank">Watch Now</a>
-    <a href="https://open.spotify.com/track/5HCyWlXZPP0y6Gqq8TgA20?si=2dea33c227704773" target="_blank">Listen Now</a>
-    </div>
-
-
-
-    <div class="container">
-    <h3>Closer</h3>
-    <img src="./Images/img 9.png" alt="img closer" class="img-9">
-    <br>
-    <audio src="./Music/Halsey.m4a" controls></audio>
-    <ul>
-        <li>Artist: The Chainsmokers, Halsey</li>
-        <li>Album: Collage</li>
-        <li>Duration: 4:04</li>
-    </ul>
-    <a href="https://youtu.be/PT2_F-1esPk" target="_blank">Watch Now</a>
-    <a href="https://open.spotify.com/track/7BKLCZ1jbUBVqRi2FVlTVw?si=6461fa9e610340b3" target="_blank">Liste Now</a>
-    </div>
-
-  
-
-    <div class="container">
-    <h3>Believer</h3>
-    <img src="./Images/img 10.png" alt="img believer" class="img-10">
-    <br>
-    <audio src="./Music/Imagine Dragons.mp3" controls></audio>
-    <ul>
-        <Li>Artist: Imagine Dragons</Li>
-        <Li>Album: Evolve</Li>
-        <Li>Duration: 3:24</Li>
-    </ul>
-    <a href="https://youtu.be/7wtfhZwyrcc" target="_blank">Watch Now</a>
-    <a href="https://open.spotify.com/track/0pqnGHJpmpxLKifKRmU6WP?si=43d2d0610c3246bc" target="_blank">Listen Now</a>
-    </div>
-
-
-
-    <div class="container">
-    <h3>Perfect</h3>
-    <img src="./Images/img 2.png" alt="img perfect">
-    <br>
-    <audio src="./Music/Ed Sheeran 2.m4a" controls></audio>
-    <ul>
-        <li>Artist: Ed Sheeran</li>
-        <li>Album: ÷</li>
-        <li>Duration: 4:23</li>
-    </ul>
-    <a href="https://youtu.be/2Vv-BfVoq4g" target="_blank">Watch Now</a>
-    <a href="https://open.spotify.com/track/0tgVpDi06FyKpA1z0VMD4v?si=262e2ec3449e45f8" target="_blank">Listen Now</a>
-    </div>
-
-
-
-
-    <div class="container">
-    <h3>Señorita</h3>
-    <img src="./Images/img 11.png" alt="img señorita" class="img-11">
-    <br>
-    <audio src="./Music/Shawn Mendes.m4a" controls></audio>
-    <ul>
-        <li>Artist: Shawn Mendes, Camila Cabello</li>
-        <li>Album: Shawn Mendes y Romance</li>
-        <li>Duration: 3:10</li>
-    </ul>
-    <a href="https://youtu.be/Pkh8UtuejGw" target="_blank">Watch Now</a>
-    <a href="https://open.spotify.com/track/0TK2YIli7K1leLovkQiNik?si=181ad402b5334c9c" target="_blank">Listen Now</a>
-    </div>
-
-
-
-
-    <div class="container">
-    <h3>Heat Waves</h3>
-    <img src="./Images/img 12.png" alt="img heat waves" class="img-12">
-    <br>
-    <audio src="./Music/Glass Animals.m4a" controls></audio>
-    <ul>
-        <li>Artist: Glass Animals</li>
-        <li>Album: Dreamland + Bonus Levels</li>
-        <li>Duration: 3:58</li>
-    </ul>
-    <a href="https://youtu.be/mRD0-GxqHVo" target="_blank">Watch Now</a>
-    <a href="https://open.spotify.com/track/3USxtqRwSYz57Ewm6wWRMp?si=ed04a5b0a83943cf" target="_blank">Listen Now</a>
-    </div>
+  </header>
 
  
 
-
-    <div class="container">
-    <h3>Say You Won't Let Go</h3>
-    <img src="./Images/img 13.png" alt="img say you won't let go" class="img-13">
-    <br>
-    <audio src="./Music/James Arthur.m4a" controls></audio>
-    <ul>
-        <li>Artist: James Arthur</li>
-        <li>Album: Back from the Edge</li>
-        <li>Duration: 3:31</li>
-    </ul>
-    <a href="https://youtu.be/0yW7w8F2TVA" target="_blank">Watch Now</a>
-    <a href="https://open.spotify.com/track/5uCax9HTNlzGybIStD3vDh?si=72b5dfe8a3d54acb" target="_blank">Listen Now</a>
-    </div>
+  <!-- Mouse-->
+  <div class="container_mouse">
+    <span class="mouse-btn">
+      <span class="mouse-scroll"></span>
+    </span>
+  </div>
 
 
-
-
-    <div class="container">
-    <h3>Bad Guy</h3>
-    <img src="./Images/img 14.png" alt="img bad guy" class="img-13">
-    <br>
-    <audio src="./Music/Billie Eilish.m4a" controls></audio>
-    <ul>
-        <li>Artist: Billie Eilish</li>
-        <li>Album: When We All Fall Asleep, Where Do We Go?</li>
-        <li>Duration: 3:14</li>
-    </ul>
-    <a href="https://youtu.be/DyDfgMOUjCI" target="_blank">Watch Now</a>
-    <a href="https://open.spotify.com/track/2Fxmhks0bxGSBdJ92vM42m?si=5bb35c3061284eb8" target="_blank">Listen Now</a>
-    </div>
-
-  
-
-
-    <div class="container">
-    <h3>Don't Start Now</h3>
-    <img src="./Images/img 15.png" alt="img don't start now" class="img-14">
-    <br>
-    <audio src="./Music/Dua Lipa.m4a" controls></audio>
-    <ul>
-        <li>Artist: Dua Lipa</li>
-        <li>Album: Future Nostalgia</li>
-        <li>Duration: 3:03</li>
-    </ul>
-    <a href="https://youtu.be/oygrmJFKYZY" target="_blank">Watch Now</a>
-    <a href="https://open.spotify.com/track/3PfIrDoz19wz7qK7tYeu62?si=49a6bc8ed88f4939" target="_blank">Listen Now</a>
-    </div>
+  <!-- Nav section-->
+    <nav>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://youtube.com/playlist?list=PLAMKSu6B9x3LnCllbyJHRcKhhtIFOaZyo" target="_blank">Best Songs Ever</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://open.spotify.com/playlist/76w5ANhYsXCcX33sBy2sAx?si=27c4f60bc6204cc0" target="_blank">Most Popular Songs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://youtu.be/atShuTmQLs0" target="_blank">Songs in Spanish Most Listens in History</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="youtube.com/playlist?list=PLP_5XFP4hQbhIkoNtqzHz0BWomDdBQy2i" target="_blank">Songs in Spanish Most Listens in History</a>
+        </li>
+      </ul>
+    </nav>
 
 
 
-    <div class="container">
-        <h3>Watermelon Sugar</h3>
-        <img src="./Images/img 17.jpg" alt="Watermelon Sugar" class="img-15">
-        <br>
-        <audio src="./Music/Harry Styles.m4a" controls></audio>
-        <ul>
-            <li>Artist: Harry Styles</li>
-            <li>Album: Fine Line</li>
-            <li>Duration: 2:54</li>
-        </ul>
-        <a href="https://youtu.be/E07s5ZYygMg" target="_blank">Watch Now</a>
-        <a href="https://open.spotify.com/track/6UelLqGlWMcVH1E5c4H7lY?si=240b4ae5a1c84a16" target="_blank">Listen Now</a>
+  <!--whatsapp float-->
+  <div class="whatsapp-float">
+    <a href="https://wa.me/+5492213645370" target="_blank">
+      <img src="./Images/whatsappp.png" alt="whatsapp">
+    </a>
+  </div>
+
+
+    <div class="flex-section">
+      <h2 id="titlesongs">SONGS</h2>
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class=" col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                <img src="./Images/img 1.jpeg" class="card-img-top" alt="img blinding lights">
+                <div class="card-body">
+                  <h5 class="card-title">Blinding Lights</h5>
+                  <audio src="./Music/The Weeknd.m4a" controls></audio>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Artist: The Weeknd</li>
+                    <li class="list-group-item">Album: After Hours</li>
+                    <li class="list-group-item">Duration: 3:20</li>
+                  </ul>
+                  <a href="https://youtu.be/4NRXx6U8ABQ" class="btn btn-primary" target="_blank">Watch Video</a>
+                  <a href="https://open.spotify.com/track/0VjIjW4GlUZAMYd2vXMi3b?si=f0847180f26a4754"
+                    class="btn btn-primary" target="_blank">Listen Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class=" col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                <img src="./Images/img 2.png" class="card-img-top" alt="img sahpe of you">
+                <div class="card-body">
+                  <h5 class="card-title">Shape of You</h5>
+                  <audio src="./Music/Ed sheeran 1.mp3" controls></audio>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Artist: Ed Sheeran</li>
+                    <li class="list-group-item">Album: ÷</li>
+                    <li class="list-group-item">Duration: 3:53</li>
+                  </ul>
+                  <a href="https://youtu.be/JGwWNGJdvx8" class="btn btn-primary" target="_blank">Watch Video</a>
+                  <a href="https://open.spotify.com/track/7qiZfU4dY1lWllzX7mPBI3?si=6c3de36143684811"
+                    class="btn btn-primary" target="_blank">Listen Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                <img src="./Images/img 3.png" class="card-img-top" alt="img dance monkey">
+                <div class="card-body">
+                  <h5 class="card-title">Dance Monkey</h5>
+                  <audio src="./Music/Dance Monkey.mp3" controls></audio>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Artist: Tones and I</li>
+                    <li class="list-group-item">Album: The Kids Are Coming y Welcome to the Madhouse</li>
+                    <li class="list-group-item">Duration: 3:29</li>
+                  </ul>
+                  <a href="https://youtu.be/q0hyYWKXF0Q" class="btn btn-primary" target="_blank">Watch Video</a>
+                  <a href="https://open.spotify.com/track/2XU0oxnq2qxCpomAAuJY8K?si=7536e9f6c91d42ae"
+                    class="btn btn-primary" target="_blank">Listen Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                <img src="./Images/img 4.png" class="card-img-top" alt="img someone you loved">
+                <div class="card-body">
+                  <h5 class="card-title">Someone You Loved</h5>
+                  <audio src="./Music/Someone You Loved.mp3" controls></audio>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Artist: Lewis Capaldi</li>
+                    <li class="list-group-item">Album: Breach y Divinely Uninspired to a Hellish Extent</li>
+                    <li class="list-group-item">Duration: 3:02</li>
+                  </ul>
+                  <a href="https://youtu.be/zABLecsR5UE" class="btn btn-primary" target="_blank">Watch Video</a>
+                  <a href="https://open.spotify.com/track/7qEHsqek33rTcFNT9PFqLf?si=33713e506e1842b2"
+                    class="btn btn-primary" target="_blank">Listen Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
 
-        <div class="container">
-            <h3>Lucid Dreams</h3>
-            <img src="./Images/img 16.png" alt="img lucid dreams" class="img-15">
-            <br>
-            <audio src="./Music/Juice WRLD.mp3" controls></audio>
-            <ul>
-                <li>Artist: Juice WRLD</li>
-                <li>Album: Goodbye & Good Riddance</li>
-                <li>Duration: 3:59</li>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img src="./Images/img 5.png" class="card-img-top" alt="img rockstar">
+          <div class="card-body">
+            <h5 class="card-title">Rockstar</h5>
+            <audio src="./Music/Post Malone 1.m4a" controls></audio>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Artist: Post Malone, 21 Savage</li>
+              <li class="list-group-item">Album: Beerbongs & Bentleys</li>
+              <li class="list-group-item">Duration: 3:38</li>
             </ul>
-            <a href="https://youtu.be/mzB1VGEGcSU" target="_blank">Watch Now</a>
-            <a href="https://open.spotify.com/track/285pBltuF7vW8TeWk8hdRR?si=c61e67e98b8947eb" target="_blank">Listen Now</a>
-            </div>
-
-            
-
-            <div class="container">
-                <h3>Thinking Out Loud</h3>
-                <img src="./Images/img-18.jpg" alt="img Thinking out loud" class="img-15">
-                <br>
-                <audio src="./Music/Ed Sheeran 3.mp3" controls></audio>
-                <ul>
-                    <li>Artist: Ed Sheeran</li>
-                    <li>Album: ×</li>
-                    <li>Duration: 4:41</li>
-                </ul>
-                <a href="https://youtu.be/lp-EO5I60KA" target="_blank">Watch Now</a>
-                <a href="https://open.spotify.com/track/34gCuhDGsG4bRPIf9bb02f?si=80378baafad143d4" target="_blank">Listen Now</a>
-                </div>
+            <a href="https://youtu.be/UceaB4D0jpo" class="btn btn-primary" target="_blank">Watch Video</a>
+            <a href="https://open.spotify.com/track/0e7ipj03S05BNilyu5bRzt?si=43ba4ebb66ba49dd" class="btn btn-primary"
+              target="_blank">Listen Now</a>
+          </div>
+        </div>
+      </div>
 
 
-                <div class="container">
-                    <h3>God's Plan</h3>
-                    <img src="./Images/img-19.jpg" alt="img gods plan" class="img-15">
-                    <br>
-                    <audio src="./Music/Drake 2.m4a" controls></audio>
-                    <ul>
-                        <li>Artist: Drake</li>
-                        <li>Album: Scorpion</li>
-                        <li>Duration: 3:18</li>
-                    </ul>
-                    <a href="https://youtu.be/xpVfcZ0ZcFM" target="_blank">Watch Now</a>
-                    <a href="https://open.spotify.com/track/6DCZcSspjsKoFjzjrWoCdn?si=1656d65a949d4cec" target="_blank">Listen Now</a>
-                    </div>
-            
 
-    </aside>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img src="./Images/img 6.png" class="card-img-top" alt="img sunflowers">
+          <div class="card-body">
+            <h5 class="card-title">Sunflower</h5>
+            <audio src="./Music/Post Malone 2.m4a" controls></audio>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Artist: Post Malone, Swae Lee</li>
+              <li class="list-group-item">Album: Spider-Man: Into the Spider-Verse</li>
+              <li class="list-group-item">Duration: 2:38</li>
+            </ul>
+            <a href="https://youtu.be/ApXoWvfEYVU" class="btn btn-primary" target="_blank">Watch Video</a>
+            <a href="https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P?si=d46df91e4e044522" class="btn btn-primary"
+              target="_blank">Listen Now</a>
+          </div>
+        </div>
+      </div>
 
 
-      <!--footer-->
-<footer>
-    <div class="maps">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2034.4675917391276!2d18.0629953!3d59.3418422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d5ba23621a1%3A0x35c888367d7f060e!2sSpotify!5e0!3m2!1ses-419!2sar!4v1684717194462!5m2!1ses-419!2sar" width="150" height="150" style="border: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <div class="social-media">
-    <a href="https://open.spotify.com/user/uwsdrf5q79xqg1od095t9x34t?si=536b8147e2ef4c76" target="_blank">
-        <img src="./Images/spotify (1).png" alt="Spotify">
-    </a>
-   
-    <a href="https://youtube.com/@lununez5650" target="_blank">
-        <img src="./Images/youtube.png" alt="Youtube">
-    </a>
 
-    <a href="https://on.soundcloud.com/FP2zP" target="_blank">
-    <img src="./Images/soundcloud.png" alt="SoundCloud">
-    </a>
-    </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img src="./Images/img 7.png" class="card-img-top" alt="img one dance">
+          <div class="card-body">
+            <h5 class="card-title">One Dance</h5>
+            <audio src="./Music/Drake.mp3" controls></audio>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Artist: Drake, Wizkid, Kyla</li>
+              <li class="list-group-item">Album: Views</li>
+              <li class="list-group-item">Duration: 2:53</li>
+            </ul>
+            <a href="https://youtu.be/ki0Ocze98U8" class="btn btn-primary" target="_blank">Watch Now</a>
+            <a href="https://open.spotify.com/track/1zi7xx7UVEFkmKfv06H8x0?si=44230bab22fe49c6" class="btn btn-primary"
+              target="_blank">Listen Now</a>
+          </div>
+        </div>
+      </div>
 
-    <div class="information">
-      <div class="links">
-    <a href="mailto:lnunez9720@gmail.com" target="_blank">Gmail</a>
-    <a href="https://www.linkedin.com/in/lourdesnu%C3%B1ez/" target="_blank">Linkedin</a>
-    <a href="https://github.com/loununez" target="_blank">Github</a>
+
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img src="./Images/img 8.png" class="card-img-top" alt="img stay">
+          <div class="card-body">
+            <h5 class="card-title">Stay</h5>
+            <audio src="./Music/Justin.m4a" controls></audio>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Artist: The Kid Laroi, Justin Bieber</li>
+              <li class="list-group-item">Album: F*ck Love 3: Over You</li>
+              <li class="list-group-item">Duration: 2:21</li>
+            </ul>
+            <a href="https://youtu.be/kTJczUoc26U" class="btn btn-primary" target="_blank">Watch Now</a>
+            <a href="https://open.spotify.com/track/5HCyWlXZPP0y6Gqq8TgA20?si=2dea33c227704773" class="btn btn-primary"
+              target="_blank">Listen Now</a>
+          </div>
+        </div>
       </div>
     </div>
 
+
+
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img src="./Images/img 9.png" class="card-img-top" alt="img closer">
+          <div class="card-body">
+            <h5 class="card-title">Closer</h5>
+            <audio src="./Music/Halsey.m4a" controls></audio>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Artist: The Chainsmokers, Halsey</li>
+              <li class="list-group-item">Album: Collage</li>
+              <li class="list-group-item">Duration: 4:04</li>
+            </ul>
+            <a href="https://youtu.be/PT2_F-1esPk" class="btn btn-primary" target="_blank">Watch Now</a>
+            <a href="https://open.spotify.com/track/7BKLCZ1jbUBVqRi2FVlTVw?si=6461fa9e610340b3" class="btn btn-primary"
+              target="_blank">Listen Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img src="./Images/img 10.png" class="card-img-top" alt="img believer">
+          <div class="card-body">
+            <h5 class="card-title">Believer</h5>
+            <audio src="./Music/Imagine Dragons.mp3" controls></audio>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Artist: Imagine Dragons</li>
+              <li class="list-group-item">Album: Evolve</li>
+              <li class="list-group-item">Duration: 3:24</li>
+            </ul>
+            <a href="https://youtu.be/7wtfhZwyrcc" class="btn btn-primary" target="_blank">Watch Now</a>
+            <a href="https://open.spotify.com/track/0pqnGHJpmpxLKifKRmU6WP?si=43d2d0610c3246bc" class="btn btn-primary"
+              target="_blank">Listen Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img src="./Images/img 2.png" class="card-img-top" alt="img perfect">
+          <div class="card-body">
+            <h5 class="card-title">Perfect</h5>
+            <audio src="./Music/Ed Sheeran 2.m4a" controls></audio>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Artist: Ed Sheeran</li>
+              <li class="list-group-item">Album: ÷</li>
+              <li class="list-group-item">Duration: 4:23</li>
+            </ul>
+            <a href="https://youtu.be/2Vv-BfVoq4g" class="btn btn-primary" target="_blank">Watch Now</a>
+            <a href="https://open.spotify.com/track/0tgVpDi06FyKpA1z0VMD4v?si=262e2ec3449e45f8" class="btn btn-primary"
+              target="_blank">Listen Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card">
+          <img src="./Images/img 11.png" class="card-img-top" alt="img señorita">
+          <div class="card-body">
+            <h5 class="card-title">Señorita</h5>
+            <audio src="./Music/Shawn Mendes.m4a" controls></audio>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Artist: Shawn Mendes, Camila Cabello</li>
+              <li class="list-group-item">Album: Shawn Mendes y Romance</li>
+              <li class="list-group-item">Duration: 3:10</li>
+            </ul>
+            <a href="https://youtu.be/Pkh8UtuejGw" class="btn btn-primary" target="_blank">Watch Now</a>
+            <a href="https://open.spotify.com/track/0TK2YIli7K1leLovkQiNik?si=181ad402b5334c9c" class="btn btn-primary"
+              target="_blank">Listen Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="card">
+        <img src="./Images/img 12.png" class="card-img-top" alt="img heat waves">
+        <div class="card-body">
+          <h5 class="card-title">Heat Waves</h5>
+          <audio src="./Music/Glass Animals.m4a" controls></audio>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Artist: Glass Animals</li>
+            <li class="list-group-item">Album: Dreamland + Bonus Levels</li>
+            <li class="list-group-item">Duration: 3:58</li>
+          </ul>
+          <a href="https://youtu.be/mRD0-GxqHVo" class="btn btn-primary" target="_blank">Watch Now</a>
+          <a href="https://open.spotify.com/track/3USxtqRwSYz57Ewm6wWRMp?si=ed04a5b0a83943cf" class="btn btn-primary"
+            target="_blank">Listen Now</a>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="card">
+        <img src="./Images/img 13.png" class="card-img-top" alt="img say you won't let go">
+        <div class="card-body">
+          <h5 class="card-title">Say You Won't Let Go</h5>
+          <audio src="./Music/James Arthur.m4a" controls></audio>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Artist: James Arthur</li>
+            <li class="list-group-item">Album: Back from the Edge</li>
+            <li class="list-group-item">Duration: 3:31</li>
+          </ul>
+          <a href="https://youtu.be/0yW7w8F2TVA" class="btn btn-primary" target="_blank">Watch Now</a>
+          <a href="https://open.spotify.com/track/5uCax9HTNlzGybIStD3vDh?si=72b5dfe8a3d54acb" class="btn btn-primary"
+            target="_blank">Listen Now</a>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="card">
+        <img src="./Images/img 14.png" class="card-img-top" alt="img bad guy">
+        <div class="card-body">
+          <h5 class="card-title">Bad Guy</h5>
+          <audio src="./Music/Billie Eilish.m4a" controls></audio>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Artist: Billie Eilish</li>
+            <li class="list-group-item">Album: When We All Fall Asleep, Where Do We Go?</li>
+            <li class="list-group-item">Duration: 3:14</li>
+          </ul>
+          <a href="https://youtu.be/DyDfgMOUjCI" class="btn btn-primary" target="_blank">Watch Now</a>
+          <a href="https://open.spotify.com/track/2Fxmhks0bxGSBdJ92vM42m?si=5bb35c3061284eb8" class="btn btn-primary"
+            target="_blank">Listen Now</a>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="card">
+        <img src="./Images/img 15.png" class="card-img-top" alt="img don't start now">
+        <div class="card-body">
+          <h5 class="card-title">Don't Start Now</h5>
+          <audio src="./Music/Dua Lipa.m4a" controls></audio>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Artist: Dua Lipa</li>
+            <li class="list-group-item">Album: Future Nostalgia</li>
+            <li class="list-group-item">Duration: 3:03</li>
+          </ul>
+          <a href="https://youtu.be/oygrmJFKYZY" class="btn btn-primary" target="_blank">Watch Now</a>
+          <a href="https://open.spotify.com/track/3PfIrDoz19wz7qK7tYeu62?si=49a6bc8ed88f4939" class="btn btn-primary"
+            target="_blank">Listen Now</a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="card">
+        <img src="./Images/img 17.jpg" class="card-img-top" alt="Watermelon Sugar">
+        <div class="card-body">
+          <h5 class="card-title">Watermelon Sugar</h5>
+          <audio src="./Music/Harry Styles.m4a" controls></audio>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Artist: Harry Styles</li>
+            <li class="list-group-item">Album: Fine Line</li>
+            <li class="list-group-item">Duration: 2:54</li>
+          </ul>
+          <a href="https://youtu.be/E07s5ZYygMg" class="btn btn-primary" target="_blank">Watch Now</a>
+          <a href="https://open.spotify.com/track/6UelLqGlWMcVH1E5c4H7lY?si=240b4ae5a1c84a16" class="btn btn-primary"
+            target="_blank">Listen Now</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="card">
+        <img src="./Images/img 16.png" class="card-img-top" alt="img lucid dreams">
+        <div class="card-body">
+          <h5 class="card-title">Lucid Dreams</h5>
+          <audio src="./Music/Juice WRLD.mp3" controls></audio>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Artist: Juice WRLD</li>
+            <li class="list-group-item">Album: Goodbye & Good Riddance</li>
+            <li class="list-group-item">Duration: 3:59</li>
+          </ul>
+          <a href="https://youtu.be/mzB1VGEGcSU" class="btn btn-primary" target="_blank">Watch Now</a>
+          <a href="https://open.spotify.com/track/285pBltuF7vW8TeWk8hdRR?si=c61e67e98b8947eb" class="btn btn-primary"
+            target="_blank">Listen Now</a>
+        </div>
+      </div>
+    </div>
+
+
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="card">
+        <img src="./Images/img 18.jpeg" class="card-img-top" alt="img Thinking out loud">
+        <div class="card-body">
+          <h5 class="card-title">Thinking Out Loud</h5>
+          <audio src="./Music/Ed Sheeran 3.mp3" controls></audio>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Artist: Ed Sheeran</li>
+            <li class="list-group-item">Album: ×</li>
+            <li class="list-group-item">Duration: 4:41</li>
+          </ul>
+          <a href="https://youtu.be/lp-EO5I60KA" class="btn btn-primary" target="_blank">Watch Now</a>
+          <a href="https://open.spotify.com/track/34gCuhDGsG4bRPIf9bb02f?si=80378baafad143d4" class="btn btn-primary"
+            target="_blank">Listen Now</a>
+        </div>
+      </div>
+    </div>
     
-</footer>
 
 
+
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="card">
+        <img src="./Images/img 19.jpeg" class="card-img-top" alt="img gods plan">
+        <div class="card-body">
+          <h5 class="card-title">God's Plan</h5>
+          <audio src="./Music/Drake 2.m4a" controls></audio>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Artist: Drake</li>
+            <li class="list-group-item">Album: Scorpion</li>
+            <li class="list-group-item">Duration: 3:18</li>
+          </ul>
+          <a href="https://youtu.be/xpVfcZ0ZcFM" class="btn btn-primary" target="_blank">Watch Now</a>
+          <a href="https://open.spotify.com/track/6DCZcSspjsKoFjzjrWoCdn?si=1656d65a949d4cec" class="btn btn-primary"
+            target="_blank">Listen Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+  <!--footer-->
+  <footer>
+    <div class="maps">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2034.4675917391276!2d18.0629953!3d59.3418422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d5ba23621a1%3A0x35c888367d7f060e!2sSpotify!5e0!3m2!1ses-419!2sar!4v1684717194462!5m2!1ses-419!2sar"
+        width="200" height="200" style="border: 10px;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <button class="autor" onclick="copyright()">© 2023 NL🙋🏻‍♀️</button>
+
+    <div class="social-media">
+      <a href="https://open.spotify.com/user/uwsdrf5q79xqg1od095t9x34t?si=536b8147e2ef4c76" target="_blank">
+        <img src="./Images/spotify.png" alt="Spotify">
+      </a>
+
+      <a href="https://youtube.com/@lununez5650" target="_blank">
+        <img src="./Images/youtube.png" alt="Youtube">
+      </a>
+
+      <a href="https://on.soundcloud.com/FP2zP" target="_blank">
+        <img src="./Images/soundcloud.png" alt="SoundCloud">
+      </a>
+    </div>
+
+
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
